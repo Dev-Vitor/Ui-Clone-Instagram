@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 2rem;
+    width: 18.3rem;
+    height: 41rem;
+    margin-top: 4rem;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 3.5rem;
+}
+.change{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.my-img{
+    /* flex: 1; */
+    width: 56px;
+}
+.div-img-suggestion{
+    width: 3.5rem;
+    height: 3.5rem;
+    
+}
+.suggestion-img-profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tag-name{
+    flex: 2;
+    display: flex;
+    width: 70%;
+}
+.change{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+.suggestion-img-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0095f6;
+}
+.tag, .profile-name{
+    font-size: 14px;
+    font-weight: 100;
+}
+.tag{
+    cursor: pointer;
+}
+.profile-name{
+    color: #838383;
+}
+.for-you{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0px 10px 0px;
+}
+.profile-peoples{
+    display: flex;
+    margin-bottom: 16px;
+}
+.div-img-profile{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.div-img-profile img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.texts-profile{
+    margin-left: 5px;
+}
+.text-title-profile{
+    font-size: 14px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.text-title-profile:hover{
+    text-decoration: underline;
+}
+.text-descriped-profile{
+    font-size: 12px;
+    color: #838383;
+}
+.follow-profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+.text-follow-profile{
+    font-size: 12px;
+    color: #0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}

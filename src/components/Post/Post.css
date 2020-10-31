@@ -1,0 +1,102 @@
+:root{
+    --border-bg: 1px solid #dad8d8;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+input[type=text]{
+    outline:none
+}
+.section-posts{
+    border: var(--border-bg);
+    margin: 30px 0px 60px 0px;
+    width: 38.3rem;
+}
+.div-photo-woman{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #DA2D7B;
+}
+.photo-woman{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.name-account{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.div-name{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+.div-dots{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.dots-icons{
+    cursor: pointer;
+}
+.likes-in-post{
+    display: flex;
+    align-items: center;
+}
+.div-img-liked-post{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.img-post-liked{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.text-post-liked{
+    margin-left: 0.5rem;
+    font-size: 14px;
+}
+.likes-in-post{
+    padding: 0px 1rem;
+}
+.post-description{
+    margin: 1rem;
+}
+.text-description-post{
+    font-size: 14px;
+}
+.post-send-data{
+    margin: 1rem;
+}
+.text-time-post{
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.comment-post{
+    display: flex;
+}
+.area-comment-post{
+    border: none;
+    flex: 8;
+    height: 3.5rem;
+    border-top:var(--border-bg);
+    padding-left: 1rem;
+}
+.publish-post-comment{
+    flex: 1;
+    color: #0095f6;
+    font-size: 14px;
+    border-top:var(--border-bg);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+b{
+    cursor: pointer;
+}
